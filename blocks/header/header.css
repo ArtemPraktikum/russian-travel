@@ -1,9 +1,13 @@
 .header {
   width: 1184px;
   height: 52px;
-  padding: 0 48px;
   margin-bottom: 56px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 928px;
+  }
 }
