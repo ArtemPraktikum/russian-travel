@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279.80px) {
   .header {
     width: 928px;
   }
