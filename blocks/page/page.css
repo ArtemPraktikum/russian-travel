@@ -3,17 +3,23 @@
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../../vendor/font/Inter-Regular.woff2);
+  src: url(../../vendor/font/Inter-Regular.woff);
 }
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url(../../vendor/font/Inter-Black.woff2);
+  src: url(../../vendor/font/Inter-Black.woff);
 }
 .page {
   font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   background-color: #2A2C2F;
   color: #fff;
   width: 1280px;
