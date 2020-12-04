@@ -1,10 +1,23 @@
 .lead__subtitle {
-  width: 640px;
-  height: 72px;
-  margin: 0;
-  margin-bottom: 64px;
-  font-weight: normal;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+  margin: 0;
+  max-width: 640px;
+  margin-bottom: 64px;
+}
+/* для 1024 */
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+/* для 320 */
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 288px;
+    margin-bottom: 40px;
+  }
 }

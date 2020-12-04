@@ -2,5 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 984px;
+  max-width: 984px;
+  margin-bottom: 92px;
+}
+/* для 1024 */
+@media screen and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+/* для 768 */
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: 768px;
+    margin-bottom: 88px;
+  }
+}
+/* для 320 */
+@media screen and (max-width: 767px) {
+  .lead {
+    width: 320px;
+    margin-bottom: 64px;
+  }
 }
