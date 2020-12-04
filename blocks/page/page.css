@@ -1,17 +1,4 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../../vendor/font/Inter-Regular.woff);
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(../../vendor/font/Inter-Black.woff);
-}
+
 .page {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,8 +12,12 @@
   background-color: #2A2C2F;
   color: #fff;
   padding-top: 28px;
-  padding-bottom: 24px;
-  width: 100%;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* для 320 */
 @media screen and (max-width: 767px) {
