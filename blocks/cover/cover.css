@@ -5,7 +5,28 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 92px;
-  padding: 245px 312px;
-  box-sizing: border-box;
   position: relative;
+}
+/* для 1024 */
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
+}
+/* для 768 */
+@media screen and (max-width: 1023px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+    margin-bottom: 88px;
+  }
+}
+/* для 320 */
+@media screen and (max-width: 767px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 64px;
+  }
 }

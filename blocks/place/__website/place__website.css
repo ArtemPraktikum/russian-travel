@@ -1,5 +1,9 @@
 .place__website {
-  width: 456px;
-  height: 46px;
   align-self: end;
+}
+/* для 320 */
+@media screen and (max-width: 767px) {
+  .place__website {
+    display: none;
+  }
 }

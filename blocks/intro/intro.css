@@ -1,5 +1,28 @@
 .intro {
-  width: 690px;
+  max-width: 690px;
   align-self: flex-start;
   margin-left: 148px;
+  margin-bottom: 92px;
+}
+/* для 1024 */
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+/* для 768 */
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: 720px;
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: 88px;
+  }
+}
+/* для 320 */
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    margin-bottom: 64px;
+  }
 }

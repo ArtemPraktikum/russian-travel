@@ -7,3 +7,13 @@
 .place__paragraph:nth-of-type(2) {
   margin-top: 27px;
 }
+/* для 768 */
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .place__paragraph:nth-of-type(2) {
+    margin-top: 25px;
+  }
+}

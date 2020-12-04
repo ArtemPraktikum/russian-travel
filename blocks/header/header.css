@@ -2,7 +2,6 @@
   width: calc(100% - 48px * 2);
   display: flex;
   justify-content: space-between;
-  border: solid red 1px;
   margin-bottom: 56px;
 }
 /* для 1024 */
