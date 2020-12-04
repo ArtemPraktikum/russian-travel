@@ -1,6 +1,4 @@
-.lead__caption {
-  align-self: flex-start;
-  margin: 0;
+.lead__image-block_caption {
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 0.15em;
@@ -8,13 +6,13 @@
 }
 /* для 768 */
 @media screen and (max-width: 1023px) {
-  .lead__caption {
+  .lead__image-block_caption {
     margin-left: 24px;
   }
 }
 /* для 320 */
 @media screen and (max-width: 767px) {
-  .lead__caption {
+  .lead__image-block_caption {
     margin-left: 16px;
   }
 }
