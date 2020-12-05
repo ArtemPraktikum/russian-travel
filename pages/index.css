@@ -13,16 +13,16 @@
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
-@import "../blocks/lead/__image-block/lead__image-block.css";
-@import "../blocks/lead/__image-block/_image/lead__image-block_image.css";
-@import "../blocks/lead/__image-block/_caption/lead__image-block_caption.css";
+@import "../blocks/image-block/image-block.css";
+@import "../blocks/image-block/__image/image-block__image.css";
+@import "../blocks/image-block/__caption/image-block__caption.css";
 
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
-@import "../blocks/intro/__list/intro__list.css";
-@import "../blocks/intro/__list-item/intro__list-item.css";
-@import "../blocks/intro/__list-item/_bold/intro__list-item_bold.css";
+@import "../blocks/list/list.css";
+@import "../blocks/list/__item/list__item.css";
+@import "../blocks/list/__bold/list__bold.css";
 
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__item/photo-grid__item.css";
