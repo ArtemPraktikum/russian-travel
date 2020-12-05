@@ -3,10 +3,11 @@
   font-size: 24px;
   line-height: 1.16;
   margin: 18px 18px 6px 0;
+  border-bottom: 3px solid #fff;
 
 }
 .header__lang-link:last-of-type {
-  text-decoration: none;
+  border-bottom: none;
   margin-right: 0;
 }
 /* для 320 */

@@ -24,6 +24,7 @@
     margin-bottom: 73px;
   }
 }
+
 /* для 320 */
 @media screen and (max-width: 767px) {
   .place {

@@ -1,7 +1,7 @@
 .photo-grid {
   display: grid;
-  max-width: 1184px;
-  max-height: 671px;
+  width: 1184px;
+  height: 671px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
@@ -9,8 +9,8 @@
 }
 @media screen and (max-width: 1279px) {
   .photo-grid {
-    max-width: 928px;
-    max-width: 942px;
+    width: 928px;
+    height: 942px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px;
@@ -19,8 +19,8 @@
 /* для 768 */
 @media screen and (max-width: 1023px) {
   .photo-grid {
-    max-width: 720px;
-    max-width: 1664px;
+    width: 720px;
+    height: 1664px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 16px;
@@ -30,8 +30,8 @@
 /* для 320 */
 @media screen and (max-width: 767px) {
   .photo-grid {
-    max-width: 288px;
-    max-width: 2724px;
+    width: 288px;
+    height: 2724px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
     gap: 12px;

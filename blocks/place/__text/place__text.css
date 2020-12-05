@@ -1,5 +1,11 @@
 .place__text {
   display: flex;
   flex-direction: column;
-  margin: 0 16px;
+  margin: 0;
+}
+/* для 320 */
+@media screen and (max-width: 767px) {
+  .place__text {
+    margin: 0 16px;
+  }
 }
