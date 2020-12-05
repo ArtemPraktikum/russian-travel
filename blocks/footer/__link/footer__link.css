@@ -4,9 +4,10 @@
   line-height: 1.12;
   color: #FFFFFF;
   text-decoration-line: none;
+  transition: opacity 2s linear;
 }
 .footer__link:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 /* для 320 */
 @media screen and (max-width: 767px) {

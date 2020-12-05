@@ -6,6 +6,8 @@
 @import "../blocks/header/header.css";
 @import "../blocks/header/__lang-links/header__lang-links.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-select/header__lang-select.css";
+@import "../blocks/header/__lang-select/_underline/header__lang-select_underline.css";
 @import "../blocks/header/__logo/header__logo.css";
 
 @import "../blocks/content/content.css";

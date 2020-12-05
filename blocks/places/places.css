@@ -1,6 +1,5 @@
 .places {
   max-width: 984px;
-  max-height: 3392px;
   margin-bottom: 92px;
   display: flex;
   flex-direction: column;
@@ -11,14 +10,12 @@
 @media screen and (max-width: 1279px) {
   .places {
     max-width: 928px;
-    max-height: 3292px;
   }
 }
 /* для 768 */
 @media screen and (max-width: 1023px) {
   .places {
     max-width: 720px;
-    max-height: 2808px;
     margin-bottom: 90px;
   }
 }
@@ -26,7 +23,6 @@
 @media screen and (max-width: 767px) {
   .places {
     max-width: 320px;
-    max-height: 4784px;
     margin-bottom: 66px;
   }
 }

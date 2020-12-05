@@ -1,0 +1,8 @@
+.header__lang-select {
+  color: #fff;
+  transition: opacity 2s linear;
+  text-decoration: none;
+}
+.header__lang-select:hover {
+  opacity: 0.8;
+}

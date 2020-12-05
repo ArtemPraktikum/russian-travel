@@ -12,8 +12,8 @@
   <header class="header">
     <img src="./images/header__images/header__logo.svg" alt="Картинка контурной России" class="header__logo">
     <ul class="header__lang-links">
-      <li class="header__lang-link">Ru</li>
-      <li class="header__lang-link">En</li>
+      <li class="header__lang-link"><a href="#" class="header__lang-select header__lang-select_underline" target="_blank" rel="noopener">Ru</a></li>
+      <li class="header__lang-link"><a href="#" class="header__lang-select" target="_blank" rel="noopener">En</a></li>
     </ul>
   </header>
 
@@ -28,7 +28,7 @@
     </section>
 
     <section class="intro">
-      <h3 class="intro__title">Чего мы там не видели?</h3>
+      <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
         провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
         вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
@@ -61,9 +61,9 @@
       <img src="./images/photogrid__images/__item.jpg" alt="Картика из галереи виды России" class="photo-grid__item">
     </section>
 
-    <article class="places">
+    <section class="places">
 
-      <section class="place">
+      <article class="place">
         <h3 class="place__title">Куршская коса</h3>
         <img src="./images/places__images/__image-4.jpg" alt="Картинка из галереи природа России" class="place__image">
         <div class="place__website">
@@ -79,9 +79,9 @@
             россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы
             и запах стального, прохладного моря.</p>
         </div>
-      </section>
+      </article>
 
-      <section class="place">
+      <article class="place">
         <h3 class="place__title">Кольский</h3>
         <img src="./images/places__images/__image-3.jpg" alt="Картинка из галереи природа России" class="place__image">
         <div class="place__website">
@@ -99,9 +99,9 @@
             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
         </div>
-      </section>
+      </article>
 
-      <section class="place">
+      <article class="place">
         <h3 class="place__title">Алтай</h3>
         <img src="./images/places__images/__image-2.jpg" alt="Картинка из галереи природа России" class="place__image">
         <div class="place__website">
@@ -118,9 +118,9 @@
             всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на
             равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
-      </section>
+      </article>
 
-      <section class="place">
+      <article class="place">
         <h3 class="place__title">Зимний Байкал</h3>
         <img src="./images/places__images/__image-1.jpg" alt="Картинка из галереи природа России" class="place__image">
         <div class="place__website">
@@ -137,9 +137,9 @@
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-      </section>
+      </article>
 
-      <section class="place">
+      <article class="place">
         <h3 class="place__title">Карелия</h3>
         <img src="./images/places__images/__image.jpg" alt="Картинка из галереи природа России" class="place__image">
         <div class="place__website">
@@ -154,14 +154,14 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </section>
+      </article>
 
-    </article>
+    </section>
 
     <section class="cover">
 
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="_blank" rel="noopener">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <h4 class="cover__title">До Байкала «на собаках»</h4>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
       </a>
@@ -170,18 +170,20 @@
   </main>
 
   <footer class="footer">
-    <ul class="footer__links">
-      <li class="footer__list-item"><a href="https://yandex.ru/maps" class="footer__link" target="_blank"
-          rel="noopener">Карты</a></li>
-      <li class="footer__list-item"><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank"
-          rel="noopener">Погода</a></li>
-      <li class="footer__list-item"><a href="https://rasp.yandex.ru" class="footer__link" target="_blank"
-          rel="noopener">Расписание</a></li>
-      <li class="footer__list-item"><a href="https://calendar.yandex.ru" class="footer__link" target="_blank"
-          rel="noopener">Календарь</a></li>
-      <li class="footer__list-item"><a href="https://travel.yandex.ru" class="footer__link" target="_blank"
-          rel="noopener">Путешествия</a></li>
-    </ul>
+    <nav>
+      <ul class="footer__links">
+        <li class="footer__list-item"><a href="https://yandex.ru/maps" class="footer__link" target="_blank"
+            rel="noopener">Карты</a></li>
+        <li class="footer__list-item"><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank"
+            rel="noopener">Погода</a></li>
+        <li class="footer__list-item"><a href="https://rasp.yandex.ru" class="footer__link" target="_blank"
+            rel="noopener">Расписание</a></li>
+        <li class="footer__list-item"><a href="https://calendar.yandex.ru" class="footer__link" target="_blank"
+            rel="noopener">Календарь</a></li>
+        <li class="footer__list-item"><a href="https://travel.yandex.ru" class="footer__link" target="_blank"
+            rel="noopener">Путешествия</a></li>
+      </ul>
+    </nav>
     <p class="footer__coryright">&copy; 2020. Артем</p>
   </footer>
 
