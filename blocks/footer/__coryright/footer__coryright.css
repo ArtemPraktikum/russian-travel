@@ -15,7 +15,6 @@
 /* для 320 */
 @media screen and (max-width: 767px) {
   .footer__coryright {
-    text-align: left;
     align-self: flex-start;
     line-height: 1;
     margin-top: 48px;
